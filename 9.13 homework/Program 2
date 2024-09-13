@@ -1,0 +1,8 @@
+#ask user for input
+num=int(input("Enter a number: "))
+result =1
+#calculate the factorial
+for i in range(1, num+1):
+    result*=i
+#Print the result in string
+print("The factorial of "+str(num)+" is "+str(result))

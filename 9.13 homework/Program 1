@@ -1,0 +1,12 @@
+#Function to check if a number is odd or even
+def check_odd_even(number):
+    if number%2==0: 
+        return"even"
+    else:
+        return"odd"
+#ask user for input
+num=int(input("Enter a number: "))
+
+#Call the function and print the result
+result = check_odd_even(num)
+print(f"the number {num} is {result}")

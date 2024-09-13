@@ -1,0 +1,5 @@
+name="Ms.Allwood"#greet the user
+num1=int(input("Enter 1st number")) #get input from user in number
+num2=int(input("Enter 2nd number"))
+result=num1*num2 #multiply the two numbers
+print("the result is "+str(result)) #print the number in string form

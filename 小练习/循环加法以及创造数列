@@ -1,0 +1,6 @@
+squares=[x**2 for x in range(10)]
+print (squares)
+num=0
+for i in range(10):
+    num+=squares[i]
+    print(num)

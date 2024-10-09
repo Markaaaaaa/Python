@@ -1,0 +1,32 @@
+num1=int(input("Enter: "))
+num2=int(input("Enter: "))
+ex=(num1,num2)
+new1,new2=ex
+print(new2,new1)
+
+length=int(input("Enter L: "))
+width=int(input("Enter W: "))
+print("area is "+str(length*width))
+print("perimeter is "+str(2*(length+width)))
+
+temp=int(input("Enter temp: "))
+print("Kelvin is "+str(temp+273))
+print("Fahrenheit  is "+str(9*temp/5+32))
+
+num1=int(input("Enter: "))
+num2=int(input("Enter: "))
+num3=int(input("Enter: "))
+ave=(num1+num2+num3)/3
+if ave>=60:
+    print("pass")
+else:
+    print("not pass")
+
+#question 5 do not know
+
+a=int(input("Enter: "))
+b=int(input("Enter: "))
+print("Sum is "+str(a+b))
+print("Difference is "+str(a-b))
+print("Product is "+str(a*b))
+print("Quotient is "+str(a/b))

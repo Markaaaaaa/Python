@@ -1,0 +1,2 @@
+In Python, polymorphism is more flexible because of dynamic typing. Any object can be passed to a function, and Python will look for the expected methods at runtime. 
+In Java, however, the type of an object must be declared, and the method signature is checked at compile-time, making polymorphism more restricted.

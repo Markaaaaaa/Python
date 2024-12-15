@@ -1,10 +1,10 @@
 def second_largest(numbers):
-    largest = second = float('-inf') 
+    largest = second = float('-inf') # Initialize to negative infinity
     for num in numbers:
-        if num > largest:  
+        if num > largest: # Found a new largest number 
             second = largest
             largest = num
-        elif num > second and num != largest:  
+        elif num > second and num != largest:  # Found a new second largest
             second = num
     return second
 
